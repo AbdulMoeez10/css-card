@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+          body{
+          background-color: beige;
+          margin:0;
+          padding: 0;}
+          img{
+              width: 100%;
+          height: 100%;}
+          .card{
+              margin:110px 140px;
+              display: grid;
+              grid-template-columns: repeat(3,1fr);
+              grid gap:40px;
+              align-item:center;
+          }
+          .card>article{
+              background: #fff;
+              border:none;
+              border-radius: 20px;
+               box-shadow:2px 2px 6px 0px rgb(0, 0, 0) ;
+               width: 290px;
+               text-transform: .3s;
+          }
+          .card>article:hover{
+              transform: translateY(5px);
+              box-shadow: 2px 2px 6px 0px rgb(0, 0, 0);
+          }
+          card>article img{
+              width: 100%;
+              border-top-left-radius: 20px;
+              border-top-right-radius: 20px;
+          }
+          .text{
+              padding:0px 20px 20px ;
+              font-family: Georgia, 'Times New Roman', Times, serif;
+
+          }
+      .text h3{
+          text transform: uppercase;
+          color:crimson;
+          font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+          font size:20px;
+          font: weight 700px;
+          text shadow:1px 1px 3px rgba 150,150,150;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <main class="card">
+        <article>
+          <img src="tecno.jpg" alt="" />
+          <div class="text">
+            <h3>Tecnology</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore,
+              neque totam. Autem totam possimus sint, libero accusamus voluptate
+              non consectetur animi, amet veritatis sapiente fugiat explicabo
+              ipsum perspiciatis cum quas.
+            </p>
+            <button>Tech us</button>
+          </div>
+        </article>
+        <article>
+          <img src="food.jpg" alt="" />
+          <div class="text">
+            <h3>Delicius Food</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore,
+              neque totam. Autem totam possimus sint, libero accusamus voluptate
+              non consectetur animi, amet veritatis sapiente fugiat explicabo
+              ipsum perspiciatis cum quas.
+            </p>
+            <button>Order us</button>
+          </div>
+        </article>
+        <article>
+          <img src="tr1.jpg" alt="" />
+          <div class="text">
+            <h3>Travel</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore,
+              neque totam. Autem totam possimus sint, libero accusamus voluptate
+              non consectetur animi, amet veritatis sapiente fugiat explicabo
+              ipsum perspiciatis cum quas.
+            </p>
+            <button>Travel us</button>
+          </div>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
